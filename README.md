@@ -6,9 +6,6 @@ Este projeto consiste no desenvolvimento de uma página web inspirada no evento 
 
 O principal objetivo é criar uma página informativa e visualmente apelativa, que apresente o evento, destaque as suas características e permita aos visitantes explorar as principais informações relacionadas com a sua participação.
 
-## 🌐 Demonstração
-
-https://websummit-delta.vercel.app/
 
 ## 🎯 Objetivos
 
@@ -34,6 +31,10 @@ As tecnologias e ferramentas utilizadas no desenvolvimento deste projeto podem s
 ## 🚀 Publicação
 
 O website encontra-se publicado através da plataforma Vercel:
+
+
+## 🌐
+https://websummit-delta.vercel.app/
 
 ## 🎓 Contexto Académico
 
