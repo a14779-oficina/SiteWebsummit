@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: white;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: white;
+    min-height: 58px;
+    padding: 5px;
+}
+
+.navbar-imagem img {
+    width: 120px;
+    height: auto;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* DECORAÇÃO NAVBAR */
+
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e52ab6;
+}
+
+/* FUNDO PRINCIPAL */
+
+.destaque {
+    min-height: 450px;
+    padding: 40px 0;
+
+    background:
+        radial-gradient(
+            ellipse at 85% 90%,
+            #00e5e5 0%,
+            transparent 45%
+        ),
+        radial-gradient(
+            ellipse at 65% 0%,
+            #e34be9 0%,
+            transparent 45%
+        ),
+        linear-gradient(
+            110deg,
+            #303caa,
+            #6351d5 55%,
+            #4d6dd8
+        );
+
+    display: flex;
+}
+
+
+/* CONTEÚDO */
+
+.destaque-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.destaque-linha {
+    align-items: stretch;
+}
+
+
+/* CARTÃO DA IMAGEM */
+
+.cartao-imagem {
+    height: 330px;
+    padding: 7px;
+    border-radius: 18px;
+    background: rgba(20, 20, 70, 0.45);
+}
+
+.cartao-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+    display: block;
+}
+
+
+/* CARTÃO DE INFORMAÇÃO */
+
+.cartao-informacao {
+    height: 330px;
+    padding: 25px;
+    border-radius: 18px;
+    background: rgba(45, 35, 105, 0.45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* TÍTULO */
+
+.cartao-informacao h1 {
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+
+/* TEXTO */
+
+.cartao-informacao p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 10px;
+}
+
+
+/* BOTÕES PRINCIPAIS */
+
+.botoes-destaque {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: auto;
+}
+
+.botoes-destaque a {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 9px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.botao-bilhete {
+    background: linear-gradient(
+        90deg,
+        #f20bc2,
+        #a52cff,
+        #00d9e8
+    );
+
+    color: white;
+}
+
+.botao-exposicao {
+    background: white;
+    color: #222222;
+}
+
+.preto {
+    color: black
+}
