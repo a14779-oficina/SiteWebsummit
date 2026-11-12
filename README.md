@@ -35,8 +35,6 @@ As tecnologias e ferramentas utilizadas no desenvolvimento deste projeto podem s
 
 O website encontra-se publicado através da plataforma Vercel:
 
-Visitar Website
-
 ## 🎓 Contexto Académico
 
 Projeto desenvolvido em contexto escolar, com o objetivo de colocar em prática conhecimentos e competências na área do desenvolvimento web.
