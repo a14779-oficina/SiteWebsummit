@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inscrição - Web Summit</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+
+                <!-- LOGÓTIPO -->
+                <a class="navbar-imagem" href="index.html">
+                    <img src="https://websummit.com/wp-media/2025/11/Qcd8d32f-Web-Summit-Lisbon-9-12-2026-logo-coloured-300x54.png"
+                        alt="Web Summit">
+                </a>
+
+                <!-- LINKS -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="oradores.html">Oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programa.html">Programa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Inscrição</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    <!-- INSCRIÇÃO -->
+    <div class="container-fluid py-5" style="
+        background:
+            radial-gradient(ellipse at 85% 90%, #00e5e5 0%, transparent 45%),
+            radial-gradient(ellipse at 65% 0%, #e34be9 0%, transparent 45%),
+            linear-gradient(110deg, #303caa, #6351d5 55%, #4d6dd8);
+    ">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-7">
+                    <div class="bg-white text-dark p-5 rounded-4">
+                        <h1 class="text-center mb-3 preto">
+                            Inscreve-te na Web Summit
+                        </h1>
+                        <p class="text-center mb-4 preto">
+                            Garante o teu lugar num dos maiores eventos de tecnologia do mundo!
+                        </p>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="nome" placeholder="O teu nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="O teu email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="bilhete" class="form-label">Tipo de bilhete</label>
+                                <select class="form-select" id="bilhete" required>
+                                    <option value="">-</option>
+                                    <option>Bilhete geral</option>
+                                    <option>Bilhete estudante</option>
+                                    <option>Bilhete VIP</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn w-100"
+                                style="background: linear-gradient(90deg, #f20bc2, #a52cff, #00d9e8);">
+                                Inscrever-me
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
