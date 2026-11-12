@@ -31,9 +31,7 @@ As tecnologias e ferramentas utilizadas no desenvolvimento deste projeto podem s
 ## 🚀 Publicação
 
 O website encontra-se publicado através da plataforma Vercel:
-
-
-## 🌐
+🌐
 https://websummit-delta.vercel.app/
 
 ## 🎓 Contexto Académico
